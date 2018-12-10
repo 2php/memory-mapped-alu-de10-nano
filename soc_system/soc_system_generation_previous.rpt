@@ -1,0 +1,41 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/user/VHDL/final-project-ee467/DE10_NANO_SoC_GHRD/soc_system.qsys --block-symbol-file --output-directory=/home/user/VHDL/final-project-ee467/DE10_NANO_SoC_GHRD/soc_system --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading DE10_NANO_SoC_GHRD/soc_system.qsys
+Progress: Reading input file
+Progress: Adding ILC [interrupt_latency_counter 18.0]
+Progress: Parameterizing module ILC
+Progress: Adding Qsys_MMR_0 [Qsys_MMR 1.0]
+Progress: Parameterizing module Qsys_MMR_0
+Progress: Adding button_pio [altera_avalon_pio 18.0]
+Progress: Parameterizing module button_pio
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Adding dipsw_pio [altera_avalon_pio 18.0]
+Progress: Parameterizing module dipsw_pio
+Progress: Adding f2sdram_only_master [altera_jtag_avalon_master 18.0]
+Progress: Parameterizing module f2sdram_only_master
+Progress: Adding fpga_only_master [altera_jtag_avalon_master 18.0]
+Progress: Parameterizing module fpga_only_master
+Progress: Adding hps_0 [altera_hps 18.0]
+Progress: Parameterizing module hps_0
+Progress: Adding hps_only_master [altera_jtag_avalon_master 18.0]
+Progress: Parameterizing module hps_only_master
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding mm_bridge_0 [altera_avalon_mm_bridge 18.0]
+Progress: Parameterizing module mm_bridge_0
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 18.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_system.button_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.dipsw_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: soc_system.hps_0: HPS Main PLL counter settings: n = 0  m = 63
+Info: soc_system.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Info: soc_system.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: soc_system.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: soc_system.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Stopping: Create block symbol file (.bsf)

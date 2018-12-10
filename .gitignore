@@ -1,0 +1,9 @@
+# Auto-Generated Quartus #
+#################################
+db
+greybox_tmp
+incremental_db
+output_files
+
+*.sof
+*.bak
